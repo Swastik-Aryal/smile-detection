@@ -1,11 +1,33 @@
-This is a SMILE detection software which uses opencv ( python module ) to detect smiles and encloses them inside a green box.
+# About
 
-Before accessing the file make sure to have opencv installed on your PC.
+This is a smile detection software which detects smiles and encloses them inside a green box.
 
-For this, you can either use the command
 
-" pip install opencv-python " OR " pip install opencv-contrib-python"
+## Installation
 
-in your terminal.
+Navigate to the directory where you want to save this file.
 
-ENJOYY!!
+Clone this repo with 
+
+```bash
+  git clone https://github.com/Swastik-Aryal/smile-detection.git
+```
+    
+## Requirements
+
+Install the required modules using
+
+```bash
+  pip install opencv-python
+```
+OR
+```bash
+  pip install opencv-contrib-python
+```
+
+## Customizations
+
+You can play around with the ``scaleFactor`` and ```minNeighbors``` values in the
+```smile_detect``` function of the
+```Smile_Detection.py``` file to alter the accuracy and extent of the program.
+
